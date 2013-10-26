@@ -1,7 +1,7 @@
 import os
 
 output = open("output/out.turtle", "w")
-output.write("base <http://public-mediawiki.ftes.de/hpi/swt_ws13/aufgabenblatt/2/aufgabe/4/b/> .\n")
+output.write("@base <http://public-mediawiki.ftes.de/hpi/swt_ws13/aufgabenblatt/2/aufgabe/4/b/> .\n")
 output.write("@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n")
 output.write("@prefix attr: <http://public-mediawiki.ftes.de/hpi/swt_ws13/aufgabenblatt/2/aufgabe/4/b/attributes/> .\n\n")
 
